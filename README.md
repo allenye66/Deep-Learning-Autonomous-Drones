@@ -14,6 +14,4 @@ Trial.py: This is the script to fly the actualy drone.
 
 UserModelLibraries: This is the final conglomeration of all of our code - the probability functions, models, and pre/post processing function used to run our algorithms.
 
-Due to the size of our models, we couldn;t fit them here on Github. This being said, their .h5 format isn't easily viewable either way, so we don't think it makes too much of a difference.
-
 All pictures and graphs are also included in the pictures and graphs photo.
