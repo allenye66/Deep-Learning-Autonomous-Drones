@@ -1,0 +1,6 @@
+framework module Pods_SynopsysApp_SynopsysAppUITests {
+  umbrella header "Pods-SynopsysApp-SynopsysAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

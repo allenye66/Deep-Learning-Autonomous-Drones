@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>419886761247-3nl2c2p1mqhs9ajauhd4snnrea587f51.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.419886761247-3nl2c2p1mqhs9ajauhd4snnrea587f51</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCtXpRJP1DSxT8Mc3xF_adYn2LxmRW1fDs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>419886761247</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.allenye.SynopsysApp</string>
+	<key>PROJECT_ID</key>
+	<string>synopsys-ab333</string>
+	<key>STORAGE_BUCKET</key>
+	<string>synopsys-ab333.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:419886761247:ios:953b90b52f1ecd5a0d9c2a</string>
+	<key>DATABASE_URL</key>
+	<string>https://synopsys-ab333.firebaseio.com</string>
+</dict>
+</plist>

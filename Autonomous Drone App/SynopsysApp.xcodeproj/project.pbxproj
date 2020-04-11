@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E62932F205AF7B641D3E841 /* Pods_SynopsysApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47A50290C7D865DF9FFA992 /* Pods_SynopsysApp.framework */; };
+		9F0132372418B672009B7A0D /* Drug Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0132362418B672009B7A0D /* Drug Medicine.swift */; };
+		9F0132392418B755009B7A0D /* Defibrillator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0132382418B755009B7A0D /* Defibrillator.swift */; };
+		9F01323B24195098009B7A0D /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01323A24195098009B7A0D /* Map.swift */; };
+		9F0FC8432415096700C3E41D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F0FC8422415096700C3E41D /* GoogleService-Info.plist */; };
+		9F4A9582241834CA008A9CFF /* Allergic Reaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A9581241834CA008A9CFF /* Allergic Reaction.swift */; };
+		9F9F6DEE21FB1477422D35A1 /* Pods_SynopsysApp_SynopsysAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144CB8B826A120CC1C7F0D8C /* Pods_SynopsysApp_SynopsysAppUITests.framework */; };
+		9FD27A4A2417FF4F00B31A02 /* ButtonScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD27A492417FF4F00B31A02 /* ButtonScreenViewController.swift */; };
+		9FDE19B62415035A009650DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE19B52415035A009650DE /* AppDelegate.swift */; };
+		9FDE19B82415035A009650DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE19B72415035A009650DE /* SceneDelegate.swift */; };
+		9FDE19BA2415035A009650DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE19B92415035A009650DE /* ViewController.swift */; };
+		9FDE19BD2415035A009650DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDE19BB2415035A009650DE /* Main.storyboard */; };
+		9FDE19BF2415035B009650DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDE19BE2415035B009650DE /* Assets.xcassets */; };
+		9FDE19C22415035B009650DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDE19C02415035B009650DE /* LaunchScreen.storyboard */; };
+		9FDE19CD2415035B009650DE /* SynopsysAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE19CC2415035B009650DE /* SynopsysAppTests.swift */; };
+		9FDE19D82415035B009650DE /* SynopsysAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE19D72415035B009650DE /* SynopsysAppUITests.swift */; };
+		F101460AB7CB99CB58A525D6 /* Pods_SynopsysAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA407B14F204A8EF268C2A6A /* Pods_SynopsysAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FDE19C92415035B009650DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDE19AA2415035A009650DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FDE19B12415035A009650DE;
+			remoteInfo = SynopsysApp;
+		};
+		9FDE19D42415035B009650DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDE19AA2415035A009650DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FDE19B12415035A009650DE;
+			remoteInfo = SynopsysApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144CB8B826A120CC1C7F0D8C /* Pods_SynopsysApp_SynopsysAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynopsysApp_SynopsysAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2901A6B39E59FC3BC1F15BF4 /* Pods-SynopsysAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysAppTests.release.xcconfig"; path = "Target Support Files/Pods-SynopsysAppTests/Pods-SynopsysAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7895C400A0F35C9286FFEAC2 /* Pods-SynopsysApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysApp.release.xcconfig"; path = "Target Support Files/Pods-SynopsysApp/Pods-SynopsysApp.release.xcconfig"; sourceTree = "<group>"; };
+		99F7DDD4D54C9528756273D0 /* Pods-SynopsysApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysApp.debug.xcconfig"; path = "Target Support Files/Pods-SynopsysApp/Pods-SynopsysApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0132362418B672009B7A0D /* Drug Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Drug Medicine.swift"; sourceTree = "<group>"; };
+		9F0132382418B755009B7A0D /* Defibrillator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defibrillator.swift; sourceTree = "<group>"; };
+		9F01323A24195098009B7A0D /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9F0FC8422415096700C3E41D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F4A9581241834CA008A9CFF /* Allergic Reaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Allergic Reaction.swift"; sourceTree = "<group>"; };
+		9FD27A492417FF4F00B31A02 /* ButtonScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScreenViewController.swift; sourceTree = "<group>"; };
+		9FDE19B22415035A009650DE /* SynopsysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynopsysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDE19B52415035A009650DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FDE19B72415035A009650DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FDE19B92415035A009650DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FDE19BC2415035A009650DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FDE19BE2415035B009650DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FDE19C12415035B009650DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FDE19C32415035B009650DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDE19C82415035B009650DE /* SynopsysAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynopsysAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDE19CC2415035B009650DE /* SynopsysAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynopsysAppTests.swift; sourceTree = "<group>"; };
+		9FDE19CE2415035B009650DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDE19D32415035B009650DE /* SynopsysAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynopsysAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDE19D72415035B009650DE /* SynopsysAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynopsysAppUITests.swift; sourceTree = "<group>"; };
+		9FDE19D92415035B009650DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3254678B3D030FEFC5E0DB0 /* Pods-SynopsysApp-SynopsysAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysApp-SynopsysAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SynopsysApp-SynopsysAppUITests/Pods-SynopsysApp-SynopsysAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA407B14F204A8EF268C2A6A /* Pods_SynopsysAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynopsysAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10C4687ACB49AE80772C77D /* Pods-SynopsysAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SynopsysAppTests/Pods-SynopsysAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA287F6CB866A3A2B5856713 /* Pods-SynopsysApp-SynopsysAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynopsysApp-SynopsysAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SynopsysApp-SynopsysAppUITests/Pods-SynopsysApp-SynopsysAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F47A50290C7D865DF9FFA992 /* Pods_SynopsysApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynopsysApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDE19AF2415035A009650DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E62932F205AF7B641D3E841 /* Pods_SynopsysApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19C52415035B009650DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F101460AB7CB99CB58A525D6 /* Pods_SynopsysAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19D02415035B009650DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F6DEE21FB1477422D35A1 /* Pods_SynopsysApp_SynopsysAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D60C3ECDB7FFD279F3A4CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F7DDD4D54C9528756273D0 /* Pods-SynopsysApp.debug.xcconfig */,
+				7895C400A0F35C9286FFEAC2 /* Pods-SynopsysApp.release.xcconfig */,
+				EA287F6CB866A3A2B5856713 /* Pods-SynopsysApp-SynopsysAppUITests.debug.xcconfig */,
+				B3254678B3D030FEFC5E0DB0 /* Pods-SynopsysApp-SynopsysAppUITests.release.xcconfig */,
+				E10C4687ACB49AE80772C77D /* Pods-SynopsysAppTests.debug.xcconfig */,
+				2901A6B39E59FC3BC1F15BF4 /* Pods-SynopsysAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FDE19A92415035A009650DE = {
+			isa = PBXGroup;
+			children = (
+				9FDE19B42415035A009650DE /* SynopsysApp */,
+				9FDE19CB2415035B009650DE /* SynopsysAppTests */,
+				9FDE19D62415035B009650DE /* SynopsysAppUITests */,
+				9FDE19B32415035A009650DE /* Products */,
+				15D60C3ECDB7FFD279F3A4CF /* Pods */,
+				C7492DB59ABC4B35FD53D6C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDE19B32415035A009650DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE19B22415035A009650DE /* SynopsysApp.app */,
+				9FDE19C82415035B009650DE /* SynopsysAppTests.xctest */,
+				9FDE19D32415035B009650DE /* SynopsysAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDE19B42415035A009650DE /* SynopsysApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE19B52415035A009650DE /* AppDelegate.swift */,
+				9FDE19B72415035A009650DE /* SceneDelegate.swift */,
+				9FDE19B92415035A009650DE /* ViewController.swift */,
+				9FDE19BB2415035A009650DE /* Main.storyboard */,
+				9F01323A24195098009B7A0D /* Map.swift */,
+				9F0132382418B755009B7A0D /* Defibrillator.swift */,
+				9F4A9581241834CA008A9CFF /* Allergic Reaction.swift */,
+				9F0132362418B672009B7A0D /* Drug Medicine.swift */,
+				9FD27A492417FF4F00B31A02 /* ButtonScreenViewController.swift */,
+				9F0FC8422415096700C3E41D /* GoogleService-Info.plist */,
+				9FDE19BE2415035B009650DE /* Assets.xcassets */,
+				9FDE19C02415035B009650DE /* LaunchScreen.storyboard */,
+				9FDE19C32415035B009650DE /* Info.plist */,
+			);
+			path = SynopsysApp;
+			sourceTree = "<group>";
+		};
+		9FDE19CB2415035B009650DE /* SynopsysAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE19CC2415035B009650DE /* SynopsysAppTests.swift */,
+				9FDE19CE2415035B009650DE /* Info.plist */,
+			);
+			path = SynopsysAppTests;
+			sourceTree = "<group>";
+		};
+		9FDE19D62415035B009650DE /* SynopsysAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE19D72415035B009650DE /* SynopsysAppUITests.swift */,
+				9FDE19D92415035B009650DE /* Info.plist */,
+			);
+			path = SynopsysAppUITests;
+			sourceTree = "<group>";
+		};
+		C7492DB59ABC4B35FD53D6C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F47A50290C7D865DF9FFA992 /* Pods_SynopsysApp.framework */,
+				144CB8B826A120CC1C7F0D8C /* Pods_SynopsysApp_SynopsysAppUITests.framework */,
+				BA407B14F204A8EF268C2A6A /* Pods_SynopsysAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FDE19B12415035A009650DE /* SynopsysApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDE19DC2415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysApp" */;
+			buildPhases = (
+				F612B6FC018C90ECFB361F99 /* [CP] Check Pods Manifest.lock */,
+				9FDE19AE2415035A009650DE /* Sources */,
+				9FDE19AF2415035A009650DE /* Frameworks */,
+				9FDE19B02415035A009650DE /* Resources */,
+				2D8A6095F2C8551B979EC20F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynopsysApp;
+			productName = SynopsysApp;
+			productReference = 9FDE19B22415035A009650DE /* SynopsysApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FDE19C72415035B009650DE /* SynopsysAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDE19DF2415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysAppTests" */;
+			buildPhases = (
+				FB9D31A0009F0A435B937503 /* [CP] Check Pods Manifest.lock */,
+				9FDE19C42415035B009650DE /* Sources */,
+				9FDE19C52415035B009650DE /* Frameworks */,
+				9FDE19C62415035B009650DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDE19CA2415035B009650DE /* PBXTargetDependency */,
+			);
+			name = SynopsysAppTests;
+			productName = SynopsysAppTests;
+			productReference = 9FDE19C82415035B009650DE /* SynopsysAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FDE19D22415035B009650DE /* SynopsysAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDE19E22415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysAppUITests" */;
+			buildPhases = (
+				6B80E810F5A3182F416C9F83 /* [CP] Check Pods Manifest.lock */,
+				9FDE19CF2415035B009650DE /* Sources */,
+				9FDE19D02415035B009650DE /* Frameworks */,
+				9FDE19D12415035B009650DE /* Resources */,
+				9B7B03665F7ADC2144950679 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDE19D52415035B009650DE /* PBXTargetDependency */,
+			);
+			name = SynopsysAppUITests;
+			productName = SynopsysAppUITests;
+			productReference = 9FDE19D32415035B009650DE /* SynopsysAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDE19AA2415035A009650DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Allen;
+				TargetAttributes = {
+					9FDE19B12415035A009650DE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9FDE19C72415035B009650DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9FDE19B12415035A009650DE;
+					};
+					9FDE19D22415035B009650DE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9FDE19B12415035A009650DE;
+					};
+				};
+			};
+			buildConfigurationList = 9FDE19AD2415035A009650DE /* Build configuration list for PBXProject "SynopsysApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FDE19A92415035A009650DE;
+			productRefGroup = 9FDE19B32415035A009650DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDE19B12415035A009650DE /* SynopsysApp */,
+				9FDE19C72415035B009650DE /* SynopsysAppTests */,
+				9FDE19D22415035B009650DE /* SynopsysAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FDE19B02415035A009650DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0FC8432415096700C3E41D /* GoogleService-Info.plist in Resources */,
+				9FDE19C22415035B009650DE /* LaunchScreen.storyboard in Resources */,
+				9FDE19BF2415035B009650DE /* Assets.xcassets in Resources */,
+				9FDE19BD2415035A009650DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19C62415035B009650DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19D12415035B009650DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D8A6095F2C8551B979EC20F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp/Pods-SynopsysApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp/Pods-SynopsysApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp/Pods-SynopsysApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B80E810F5A3182F416C9F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynopsysApp-SynopsysAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7B03665F7ADC2144950679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp-SynopsysAppUITests/Pods-SynopsysApp-SynopsysAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp-SynopsysAppUITests/Pods-SynopsysApp-SynopsysAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SynopsysApp-SynopsysAppUITests/Pods-SynopsysApp-SynopsysAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F612B6FC018C90ECFB361F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynopsysApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9D31A0009F0A435B937503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynopsysAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDE19AE2415035A009650DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4A9582241834CA008A9CFF /* Allergic Reaction.swift in Sources */,
+				9FD27A4A2417FF4F00B31A02 /* ButtonScreenViewController.swift in Sources */,
+				9F01323B24195098009B7A0D /* Map.swift in Sources */,
+				9FDE19BA2415035A009650DE /* ViewController.swift in Sources */,
+				9FDE19B62415035A009650DE /* AppDelegate.swift in Sources */,
+				9F0132392418B755009B7A0D /* Defibrillator.swift in Sources */,
+				9F0132372418B672009B7A0D /* Drug Medicine.swift in Sources */,
+				9FDE19B82415035A009650DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19C42415035B009650DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDE19CD2415035B009650DE /* SynopsysAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDE19CF2415035B009650DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDE19D82415035B009650DE /* SynopsysAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FDE19CA2415035B009650DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FDE19B12415035A009650DE /* SynopsysApp */;
+			targetProxy = 9FDE19C92415035B009650DE /* PBXContainerItemProxy */;
+		};
+		9FDE19D52415035B009650DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FDE19B12415035A009650DE /* SynopsysApp */;
+			targetProxy = 9FDE19D42415035B009650DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FDE19BB2415035A009650DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDE19BC2415035A009650DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FDE19C02415035B009650DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDE19C12415035B009650DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FDE19DA2415035B009650DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FDE19DB2415035B009650DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FDE19DD2415035B009650DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F7DDD4D54C9528756273D0 /* Pods-SynopsysApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FDE19DE2415035B009650DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7895C400A0F35C9286FFEAC2 /* Pods-SynopsysApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FDE19E02415035B009650DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10C4687ACB49AE80772C77D /* Pods-SynopsysAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynopsysApp.app/SynopsysApp";
+			};
+			name = Debug;
+		};
+		9FDE19E12415035B009650DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2901A6B39E59FC3BC1F15BF4 /* Pods-SynopsysAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynopsysApp.app/SynopsysApp";
+			};
+			name = Release;
+		};
+		9FDE19E32415035B009650DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA287F6CB866A3A2B5856713 /* Pods-SynopsysApp-SynopsysAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynopsysApp;
+			};
+			name = Debug;
+		};
+		9FDE19E42415035B009650DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3254678B3D030FEFC5E0DB0 /* Pods-SynopsysApp-SynopsysAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ23BY74MY;
+				INFOPLIST_FILE = SynopsysAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenye.SynopsysAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynopsysApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDE19AD2415035A009650DE /* Build configuration list for PBXProject "SynopsysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDE19DA2415035B009650DE /* Debug */,
+				9FDE19DB2415035B009650DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDE19DC2415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDE19DD2415035B009650DE /* Debug */,
+				9FDE19DE2415035B009650DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDE19DF2415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDE19E02415035B009650DE /* Debug */,
+				9FDE19E12415035B009650DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDE19E22415035B009650DE /* Build configuration list for PBXNativeTarget "SynopsysAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDE19E32415035B009650DE /* Debug */,
+				9FDE19E42415035B009650DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDE19AA2415035A009650DE /* Project object */;
+}

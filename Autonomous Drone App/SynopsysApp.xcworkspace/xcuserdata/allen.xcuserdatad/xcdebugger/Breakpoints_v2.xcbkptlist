@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DB211F66-D9C6-42A2-9EFA-7E747B9F5AC5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D69E4952-E75A-4EC2-8127-F583431F8022"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SynopsysApp/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - a4596a0a99094daf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.getter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - ceccbe22023709d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.setter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - 80a32b75684eca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.modify : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - 27807b3d79e0d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.modify : Swift.Optional&lt;__C.MKMapView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - 451bc00ad74e9dc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SynopsysApp.Map"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "D69E4952-E75A-4EC2-8127-F583431F8022 - ede440856690b184"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SynopsysApp.Map&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45555209-6E80-4700-8B39-7C8D51933F01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SynopsysApp/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "45555209-6E80-4700-8B39-7C8D51933F01 - be23494eb162a89f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.manager.getter : __C.CLLocationManager"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "45555209-6E80-4700-8B39-7C8D51933F01 - 451bc00ad74e9dc1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SynopsysApp.Map"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "45555209-6E80-4700-8B39-7C8D51933F01 - ede440856690b184"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SynopsysApp.Map&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96BD5E49-5410-42EB-A976-351C989C485E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SynopsysApp/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - a4596a0a99094daf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.getter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - ceccbe22023709d3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.setter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - 80a32b75684eca0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.modify : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - 27807b3d79e0d3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.map.modify : Swift.Optional&lt;__C.MKMapView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - 451bc00ad74e9dc1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SynopsysApp.Map"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "96BD5E49-5410-42EB-A976-351C989C485E - ede440856690b184"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SynopsysApp.Map&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDAAC7A3-CEFC-40F9-8D48-1C3980FC9FB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SynopsysApp/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "FDAAC7A3-CEFC-40F9-8D48-1C3980FC9FB6 - 451bc00ad74e9dc1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SynopsysApp.Map"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "FDAAC7A3-CEFC-40F9-8D48-1C3980FC9FB6 - ede440856690b184"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SynopsysApp.Map.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SynopsysApp.Map&gt;"
+                  moduleName = "SynopsysApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/allen/Desktop/SynopsysApp/SynopsysApp/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
