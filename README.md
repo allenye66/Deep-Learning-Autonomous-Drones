@@ -1,4 +1,4 @@
-Created by Allen Ye and Anant Bhatia
+# Created by Allen Ye and Anant Bhatia from Lynbrook High School
 
 # Autonomous-Drone-Delivery-Program-COVID-19
  
