@@ -1,3 +1,5 @@
+Created by Allen Ye and Anant Bhatia
+
 # Autonomous-Drone-Delivery-Program-COVID-19
  
 View our paper and project summary here: https://drive.google.com/drive/u/3/folders/1IlKEk60zxq8dQnekGxOkYXngBuomAFQA
