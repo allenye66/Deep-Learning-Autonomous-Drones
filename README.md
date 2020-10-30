@@ -4,6 +4,7 @@
  
 View our paper and project summary here: https://drive.google.com/drive/u/3/folders/1IlKEk60zxq8dQnekGxOkYXngBuomAFQA
 
+To watch a quick video going over our project, please visit here: https://www.youtube.com/watch?v=a0m5cTEo8EM
 
 Here is a conglomeration of file depcting the code we wrote to create an autonomous drone using a CNN-LSTM model to aid in food and package delivery during the 2020 quarantine.
 
